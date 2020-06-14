@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.11.0.final using JasperReports Library version 6.11.0-0c4056ccaa4d25a5a8c45672d2f764ea3498bebb  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="MatricolReport" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="8af79775-4267-4616-bf58-a4470c7a787c">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Report"/>
+	<queryString language="SQL">
+		<![CDATA[select * from inmatriculare]]>
+	</queryString>
+	<field name="CodM" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="CodM"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="inmatriculare"/>
+	</field>
+	<field name="Nume" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Nume"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="inmatriculare"/>
+	</field>
+	<field name="Prenume" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Prenume"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="inmatriculare"/>
+	</field>
+	<field name="An" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="An"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="inmatriculare"/>
+	</field>
+	<field name="Grupa" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Grupa"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="inmatriculare"/>
+	</field>
+	<field name="Medie" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="Medie"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="inmatriculare"/>
+	</field>
+	<field name="Bursa" class="java.lang.Boolean">
+		<property name="com.jaspersoft.studio.field.label" value="Bursa"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="inmatriculare"/>
+	</field>
+	<field name="FormaInv" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.label" value="FormaInv"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="inmatriculare"/>
+	</field>
+	<field name="CodSt" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="CodSt"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="inmatriculare"/>
+	</field>
+	<field name="CodS" class="java.lang.Integer">
+		<property name="com.jaspersoft.studio.field.label" value="CodS"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="inmatriculare"/>
+	</field>
+	<columnHeader>
+		<band height="30" splitType="Stretch">
+			<staticText>
+				<reportElement x="10" y="0" width="40" height="30" uuid="5b6d6d11-b598-44ba-b3f5-feb411cc4b56">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0b27f964-0b98-4b14-8269-f8600c022a89"/>
+				</reportElement>
+				<text><![CDATA[CodM]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="60" y="0" width="70" height="30" uuid="ec0e1f4f-1616-4737-a01f-7ac644cc84d0">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="76520ae7-27e6-4ea8-94eb-cf14e488dc9b"/>
+				</reportElement>
+				<text><![CDATA[Nume]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="140" y="0" width="70" height="30" uuid="b27060db-cc1d-4300-b673-75bc6e4d2a15">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a3641454-22e4-4981-bdba-7d8e836e7858"/>
+				</reportElement>
+				<text><![CDATA[Prenume]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="220" y="0" width="33" height="30" uuid="c1fc0396-017b-41aa-9a9c-2b9617d3e9fb">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="1ebbf871-53bd-4a19-9680-55b563f1184d"/>
+				</reportElement>
+				<text><![CDATA[An]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="270" y="0" width="40" height="30" uuid="2fd5243a-ee61-4394-99b5-bc999c05fae6">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="91a4bc25-4d50-4a55-b491-74ac3e1610da"/>
+				</reportElement>
+				<text><![CDATA[Grupa]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="320" y="0" width="40" height="30" uuid="61f7c0e9-b977-4162-b8f4-3bb4e2423780">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0f30c80f-7e4f-405a-b294-84a40617dd06"/>
+				</reportElement>
+				<text><![CDATA[Medie]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="390" y="0" width="40" height="30" uuid="a38dfd26-b0d9-4a50-ab69-13134c5a2959">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b09b03b2-6d98-4546-92ee-ca59254f599c"/>
+				</reportElement>
+				<text><![CDATA[Bursa]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="450" y="0" width="40" height="30" uuid="7c68ef44-9105-4c34-82d8-74bed4a9dad2">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9821715b-da74-4dbe-8db5-b873f0403afb"/>
+				</reportElement>
+				<text><![CDATA[CodSt]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="510" y="0" width="40" height="30" uuid="f89a5388-7c36-432b-a5fc-283a1d2f5b32">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="98a82542-8402-485f-a421-54d06c9dea8c"/>
+				</reportElement>
+				<text><![CDATA[CodS]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="50" splitType="Stretch">
+			<textField>
+				<reportElement x="10" y="20" width="40" height="30" uuid="53cde4f3-bfad-4efb-b67c-898dbe7d23fb">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0b27f964-0b98-4b14-8269-f8600c022a89"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{CodM}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="60" y="20" width="70" height="30" uuid="eefbd9de-03b3-41ba-91ad-2db13edc2c36">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="76520ae7-27e6-4ea8-94eb-cf14e488dc9b"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Nume}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="140" y="20" width="70" height="30" uuid="a9bfd457-f80d-4688-aad3-d195bf575bce">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a3641454-22e4-4981-bdba-7d8e836e7858"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Prenume}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="220" y="20" width="33" height="30" uuid="4ae71555-20bf-4dc3-8350-ecd76cd4474b">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="1ebbf871-53bd-4a19-9680-55b563f1184d"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{An}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="270" y="20" width="40" height="30" uuid="818ac1de-c8dd-4332-b50d-a0b61d3aee1d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="91a4bc25-4d50-4a55-b491-74ac3e1610da"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Grupa}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="330" y="20" width="40" height="30" uuid="e2aaa301-a9f4-4ac3-8c90-96f2d83e2f6f">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="0f30c80f-7e4f-405a-b294-84a40617dd06"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Medie}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="390" y="20" width="40" height="30" uuid="979e2be4-2ca9-4acd-846f-73725c01139d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="b09b03b2-6d98-4546-92ee-ca59254f599c"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{Bursa}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="450" y="20" width="40" height="30" uuid="eb0a1421-a8e9-46c5-950d-c6e5cb2153e9">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="9821715b-da74-4dbe-8db5-b873f0403afb"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{CodSt}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="510" y="20" width="40" height="30" uuid="c401a456-8eb8-4151-a93f-d508e51eb490">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="98a82542-8402-485f-a421-54d06c9dea8c"/>
+				</reportElement>
+				<textFieldExpression><![CDATA[$F{CodS}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
